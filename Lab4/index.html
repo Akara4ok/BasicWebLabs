@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Task1</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+
+    <body>          
+        <main id="mainId">
+            <div id="messages" class="message-container"></div>
+            <form id="msg-form" class="msg-form-class">
+                <input id="name-input" placeholder="name" class="name">
+                <input id="msg-input" placeholder="message" class="message-field">
+                <button id="submitBtn">Send</button>
+            </form>
+            <div id="popup"></div>
+        </main>
+        <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>

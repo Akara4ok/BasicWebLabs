@@ -1,6 +1,6 @@
 p{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 main{
@@ -55,4 +55,9 @@ button{
 
 .label{
     font-weight: bold;
+}
+
+.form-label{
+    text-align: start;
+    margin: 0px;
 }
