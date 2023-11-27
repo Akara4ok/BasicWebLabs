@@ -1,0 +1,33 @@
+.profile-wrapper{
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    padding: 40px 40px 0px 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.profile-header{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.record{
+    display: flex;
+    margin: 10px;
+    font-size: 1.2rem;
+    gap:10px;
+}
+
+.record input{
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    overflow: auto;
+}
+
+.button-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

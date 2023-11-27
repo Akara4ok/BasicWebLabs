@@ -96,7 +96,7 @@ const changeName = () => {
 
         fetch('http://localhost:3000/setName', {
             method: "POST",
-            body: JSON.stringify({ name: nameIn.value }), // данные могут быть 'строкой' или {объектом}!
+            body: JSON.stringify({ name: nameIn.value }),
             headers: {
                 "Content-Type": "application/json",
             }

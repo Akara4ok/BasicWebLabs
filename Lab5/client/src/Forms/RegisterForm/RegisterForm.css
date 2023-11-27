@@ -1,0 +1,11 @@
+.register-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    align-items: center;
+}
+
+.registerHeader{
+    font-size: 2em;
+    margin: 30px;
+}
